@@ -9,6 +9,6 @@ Gem::Specification.new do |s|
   s.homepage    =
     'https://rubygems.org/gems/sigruby'
   s.license       = 'MIT'
-  s.cert_chain  = ['certs/yourhandle.pem']
+  s.cert_chain  = ['certs/lukehinds_pub.pem']
   s.signing_key = File.expand_path("~/.ssh/gem-private_key.pem") if $0 =~ /gem\z/
 end
